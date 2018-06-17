@@ -5,3 +5,7 @@ packages:
   chart-tests/
   chart-gtk/
   chart-gtk3/
+
+optional-packages:
+  chart-gi-cairo
+  chart-gi-gtk
