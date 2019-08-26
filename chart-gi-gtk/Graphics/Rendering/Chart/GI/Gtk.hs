@@ -31,6 +31,7 @@ import Data.Default.Class
 
 import Control.Monad(unless)
 import System.IO.Unsafe(unsafePerformIO)
+import GI.Cairo.Render.Connector
 
 
 -- Yuck. But we really want the convenience function
