@@ -16,7 +16,7 @@ module Graphics.Rendering.Chart.GI.Gtk (
 import Data.GI.Base
 import qualified Data.GI.Gtk as Gtk
 import qualified GI.Gdk as Gdk
-import Graphics.Rendering.Cairo (liftIO, Render)
+import GI.Cairo.Render (liftIO, Render)
 
 --import Graphics.Rendering.Chart
 import Graphics.Rendering.Chart.Renderable
