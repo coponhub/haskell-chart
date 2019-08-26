@@ -86,7 +86,7 @@ createRenderableWindow chart windowWidth windowHeight = do
     Gtk.containerAdd window canvas
 
     Gtk.onWidgetDraw canvas $ \context -> do
-      renderWithContext context (drawCanvasHandler canvas chart)
+      renderWithContext (drawCanvasHandler canvas chart) context
       return True
 
     return window
