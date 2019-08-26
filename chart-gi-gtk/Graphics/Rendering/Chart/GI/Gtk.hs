@@ -10,7 +10,8 @@ module Graphics.Rendering.Chart.GI.Gtk (
     toWindow,
     createRenderableWindow,
     liftIO,
-    drawCanvasHandler
+    drawCanvasHandler,
+    renderWithContext
     -- updateCanvas
     ) where
 
