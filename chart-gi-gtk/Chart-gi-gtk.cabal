@@ -24,6 +24,7 @@ library
                , gi-gtk-hs >= 0.3.6.1
                , Chart >= 1.9 && < 1.10
                , Chart-gi-cairo >= 1.9.1 && < 1.10
+               , gi-cairo-connector
                , gi-cairo-render
 
   Exposed-modules:
