@@ -22,6 +22,7 @@ library
                , operational >= 0.2.2 && < 0.3
                , lens
                , Chart >= 1.9 && < 1.10
+               , gi-cairo-render
 
   Exposed-modules:
         Graphics.Rendering.Chart.Backend.GI.Cairo
